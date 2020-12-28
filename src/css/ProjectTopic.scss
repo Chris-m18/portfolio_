@@ -1,0 +1,61 @@
+@import "./variables";
+@mixin sizing() {
+    height:500px;
+    width:500px; 
+}
+@mixin secondSizing(){
+    height: 500px;
+    width: 500px; 
+}
+
+.serviceTopicDiv{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 200px;
+
+}
+
+
+.serviceImg{
+    @include sizing();
+}
+
+.interiorImg{
+    @include secondSizing();
+}
+
+.flooringImg{
+    @include secondSizing();
+}
+
+.pressureImg{
+    height:500px;
+}  
+
+// // .serviceQuoteBtn{
+//     background-color: $primaryOrange;
+//     color: white;
+//     border-style: none;
+//     font-weight: 700;
+//     height: 50px;
+//     width: 140px;
+// }
+
+.textsDiv{
+    width: 230px;
+    margin: 80px;
+    .servicePara{
+        font-weight:600;
+        line-height: 20px;
+    }
+}
+
+.rightFacing{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.pressure2{
+    margin-bottom:100px;
+}
+

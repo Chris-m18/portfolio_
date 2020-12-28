@@ -1,0 +1,64 @@
+@import "./variables";
+
+@mixin flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.headingTitle{
+    color: $primaryOrange;
+    text-align: center;
+    font-family: 'Gemunu Libre ExtraBold', sans-serif;
+    width: 330px;
+    height: 44px;
+    left: 77px;
+    top: 40px;
+}
+
+.headingDiv{
+    @include flexRow();
+    z-index:1;
+    text-align:center;
+    background-color:$baseWhite;
+    height: 75px;
+    width:100%;
+    position: fixed;
+}
+
+.navLinks{
+    @include flexRow();
+    position: absolute;
+    text-align: center;
+    left: 830px;
+    height: 48.61px;
+    top: 32px;
+}
+
+.linkText{
+    font-size: 18px;
+    font-weight: 600;
+    margin: -9px 38px;
+    &:hover{
+        color: $primaryOrange;  
+    }
+}
+
+.quoteText{
+    position: absolute;
+    // border: 1.5px solid black;
+    top:-4px;
+    left:-175px;
+    padding: 5px 20px;
+    padding-top: 2px;
+    &:hover{
+         color: $primaryOrange
+    }
+}
+
+.ourWorkTexts{
+    display: flex;
+    flex-direction: row;
+}
+.ourWork{
+    margin: 0px 3px;
+}
