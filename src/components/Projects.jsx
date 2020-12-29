@@ -1,10 +1,10 @@
 import React from 'react';
 import ProjectTopic from "./ProjectTopic"
 import "../css/Projects.scss"
-import game from "../Image/game.png"
-import books from "../Image/books.png"
-import good from "../Image/good.png"
-import harry from "../Image/harry.png"
+import game from "../Image/game.jpg"
+import books from "../Image/books.jpg"
+import good from "../Image/good.jpg"
+import harry from "../Image/harry.jpg"
 
 const Projects = (props) => {
   return (
@@ -17,6 +17,9 @@ const Projects = (props) => {
           paragraph="This app was built to test the knowledge of gamers"
           customStyle="gameImg"
         />
+        <button className='Game'>test</button>
+        <button className='Game'>test</button>
+        
         <ProjectTopic
           image={books}
           topic="Once Upon A Book"
@@ -25,7 +28,7 @@ const Projects = (props) => {
           side="rightFacing"
         />
         <ProjectTopic
-          image={good}
+          image={good} 
           topic="Good Cuisine"
           paragraph="Good Cuisine was a collaboration with UX designers, with a fully built backend and front end using react.."
           customStyle="goodImg"

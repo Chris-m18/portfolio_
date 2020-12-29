@@ -1,14 +1,14 @@
 @import "./variables";
 @mixin sizing() {
-    height:500px;
+    height:400px;
     width:500px; 
 }
 @mixin secondSizing(){
-    height: 500px;
+    height: 400px;
     width: 500px; 
 }
 
-.serviceTopicDiv{
+.projectTopicDiv{
     display: flex;
     flex-direction: row;
     margin-bottom: 200px;
@@ -16,20 +16,25 @@
 }
 
 
-.serviceImg{
-    @include sizing();
+.gameImg{
+  height:350px;
+  border: 1px solid black;
 }
 
-.interiorImg{
-    @include secondSizing();
+.booksImg{
+  height:350px;
+  border: 1px solid black;
 }
 
-.flooringImg{
-    @include secondSizing();
+.goodImg{
+    // @include secondSizing();
+    height:350px;
+    border: 1px solid black;
 }
 
-.pressureImg{
-    height:500px;
+.harryImg{
+    height:350px;
+    border: 1px solid black;
 }  
 
 // // .serviceQuoteBtn{
@@ -55,7 +60,7 @@
     flex-direction: row-reverse;
 }
 
-.pressure2{
+.harry2{
     margin-bottom:100px;
 }
 

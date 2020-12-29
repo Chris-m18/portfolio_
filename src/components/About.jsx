@@ -1,5 +1,4 @@
 import React from 'react';
-import Skills from './Skills'
 import "../css/About.scss"
 import chris from "../Image/chris.jpg"
 
@@ -18,7 +17,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      {/* {Skills} */}
+  
     </section>
 
   );
