@@ -64,3 +64,41 @@
     margin-bottom:100px;
 }
 
+.upon {
+  background-color: red;
+  color: white;
+  padding: .5em 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  display:flex;
+  justify-content: space-around;
+  margin: 0px 0px 10px 0px;
+ 
+}
+
+.upon:hover {
+  background-color: #555;
+}
+
+.upon:active {
+  background-color: black;
+}
+
+.code2 {
+  background-color: red;
+  color: white;
+  padding: .5em 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  display:flex;
+  justify-content: space-around;
+}
+
+.code2:hover {
+  background-color: #555;
+}
+
+.code2:active {
+  background-color: black;
+}
+

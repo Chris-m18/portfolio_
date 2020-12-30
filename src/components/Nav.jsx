@@ -18,8 +18,7 @@ const Nav = () => {
             <span className="ourWork">Contact</span>
                 </div>
         </Link>  
-        <Link className="linkText" to="https://docdro.id/zKsdeH7">Resume</Link>
-        
+        <a href="https://docdro.id/zKsdeH7" className='tag'>Resume</a>
       </div>
     </div>
   );

@@ -62,3 +62,15 @@
 .ourWork{
     margin: 0px 3px;
 }
+
+.tag {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  margin: -9px 38px;
+  &:hover{
+      color: $primaryOrange;  
+  }
+
+}

@@ -19,14 +19,16 @@ export default class MyForm extends React.Component {
         method="POST"
       >
         {/* <!-- add your custom form HTML here --> */}
+        
         <div className="body">
+
           <div className="container">
         <label>Name:</label>
         <input type="name" name="name"/>
         <label>Email:</label>
         <input type="email" name="email" />
-        <label>Message:</label>
-        <input type="text" name="message" />
+        <label for="subject">Message</label>
+    <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
         {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
         </div>

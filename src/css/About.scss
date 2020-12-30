@@ -1,5 +1,6 @@
 @import "./variables";
 
+
 .paragraphDiv{
     display: flex;
    justify-content: center;
@@ -8,7 +9,9 @@
 .aboutUsPara{
     font-weight:600;
     line-height: 20px;
+    // font-family: 'Courgette', cursive;
 }
+
 
 .para{
     margin: 20px;
