@@ -8,23 +8,25 @@ import Skills from './Skills'
 import Contact from './Contact'
 // import Testimonials from './Testimonials'
 import Footer from './Footer'
-// import '../CSS/Home.scss'
+import '../css/Home.scss'
 
 
 const Home = () => {
 
   return (
     <>
-      <Nav />
+      <div className='home'>
+      <Nav/>
       <Header />
-      <About />
+      <About/>
       <Skills/>
       <Projects />
       {/* <OurWork/>
                 <Quote/>
                 <Testimonials/>  */}
       <Contact/>
-      <Footer />
+        <Footer />
+        </div>
     </>
   )
 

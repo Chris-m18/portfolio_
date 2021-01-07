@@ -4,7 +4,7 @@ import chris from "../Image/chris.jpg"
 
 const About = () => {
   return (
-    <section id="about-us">
+    <section id="about">
       <div>
         <h1 className="aboutUs title">Something about me.....</h1>
         <img className="pic" src={chris} alt="Christian Matos"/>

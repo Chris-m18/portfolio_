@@ -19,7 +19,7 @@
     @include flexRow();
     z-index:1;
     text-align:center;
-    background-color:$baseWhite;
+    background-color: black;
     height: 75px;
     width:100%;
     position: fixed;
@@ -38,20 +38,20 @@
     font-size: 18px;
     font-weight: 600;
     margin: -9px 38px;
+    color: $primaryOrange;
     &:hover{
-        color: $primaryOrange;  
+        color: green;  
     }
 }
 
 .quoteText{
     position: absolute;
-    // border: 1.5px solid black;
     top:-4px;
-    left:-175px;
+    left:-140px;
     padding: 5px 20px;
     padding-top: 2px;
     &:hover{
-         color: $primaryOrange
+         color: green;
     }
 }
 
@@ -65,12 +65,24 @@
 
 .tag {
   text-decoration: none;
-  color: black;
+  color: $primaryOrange;
   font-size: 18px;
   font-weight: 600;
   margin: -9px 38px;
   &:hover{
-      color: $primaryOrange;  
+      color: green;
   }
 
+}
+
+@media only screen and (max-width: 600px) {
+  .headingDiv{
+    @include flexRow();
+    z-index:1;
+    text-align:center;
+    background-color: black;
+    height: 75px;
+    width:100%;
+    position: fixed;
+}
 }

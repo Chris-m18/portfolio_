@@ -13,6 +13,7 @@ export default class MyForm extends React.Component {
   render() {
     const { status } = this.state;
     return (
+      <section id="contact">
       <form
         onSubmit={this.submitForm}
         action="https://formspree.io/f/xpzoyvwl"
@@ -23,17 +24,23 @@ export default class MyForm extends React.Component {
         <div className="body">
 
           <div className="container">
-        <label>Name:</label>
-        <input type="name" name="name"/>
-        <label>Email:</label>
-        <input type="email" name="email" />
+            <div className="box">
+              <h1 className='text4'>Send me a Message</h1>
+        <label>Name</label>
+        <input type="name" name="name" placeholder="Full Name.."/>
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Email..." />
         <label for="subject">Message</label>
-    <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+              <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+              <div className="button">
         {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
-        {status === "ERROR" && <p>Ooops! There was an error.</p>}
+                {status === "ERROR" && <p>Ooops! There was an error.</p>}
+                </div>
+              </div>
         </div>
           </div>
-      </form>
+        </form>
+        </section>
     );
   }
 
@@ -55,4 +62,5 @@ export default class MyForm extends React.Component {
     };
     xhr.send(data);
   }
+      
 }
