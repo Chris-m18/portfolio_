@@ -41,8 +41,8 @@ const icon = [
    return (
      <div>
        <div style={{ height: "500px" }}>
-  <Marquee velocity={50} minScale={0.7} resetAfterTries={200} scatterRandomly>
-    {times(20, Number).map((id) => (
+  <Marquee velocity={20} minScale={0.7} resetAfterTries={200} scatterRandomly>
+    {times(15, Number).map((id) => (
       <Motion
         key={`child-${id}`}
         initDeg={randomIntFromInterval(0, 360)}
