@@ -8,7 +8,7 @@ const BookTopic = (props) => {
       <div className="textsDiv">
         <h3>{props.topic}</h3>
         <p className="projectPara">{props.paragraph}</p>
-        <a href="http://outstanding-wood.surge.sh/" className='upon'>📖</a>
+        <a href="http://outstanding-wood.surge.sh/" className='upon'>site</a>
         <a href="https://github.com/Chris-m18/Once-Upon-a-Book" className='code2'>Code</a>
 
       </div>

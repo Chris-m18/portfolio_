@@ -8,8 +8,8 @@ const HarryTopic = (props) => {
       <div className="textsDiv">
         <h3>{props.topic}</h3>
         <p className="projectPara">{props.paragraph}</p>
-        <button>Site</button>
-        <button>Site</button>
+        <button className="pro">Site</button>
+        <button className="pro">Site</button>
 
       </div>
      

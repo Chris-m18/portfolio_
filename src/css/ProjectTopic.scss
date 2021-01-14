@@ -64,17 +64,6 @@
     margin-bottom:100px;
 }
 
-.upon {
-  background-color: red;
-  color: white;
-  padding: .5em 1em;
-  text-decoration: none;
-  text-transform: uppercase;
-  display:flex;
-  justify-content: space-around;
-  margin: 0px 0px 10px 0px;
- 
-}
 
 .upon:hover {
   background-color: #555;
@@ -84,15 +73,6 @@
   background-color: black;
 }
 
-.code2 {
-  background-color: red;
-  color: white;
-  padding: .5em 1em;
-  text-decoration: none;
-  text-transform: uppercase;
-  display:flex;
-  justify-content: space-around;
-}
 
 .code2:hover {
   background-color: #555;
@@ -102,3 +82,38 @@
   background-color: black;
 }
 
+@media (max-width: 425px){
+  .gameImg{
+      height:425px;
+      width: 630px;
+  }
+
+  .rightFacing{
+      width: 232%;
+  }
+
+  .booksImg{
+      height: 530px;
+      width: 550px;
+  }
+
+  .textsDiv{
+      width: 250px;
+      h3{
+          font-size: 35px;
+      }
+
+      .servicePara{
+          font-weight:600;
+          line-height: 33px;
+          width: 233px;
+          font-size: 24px;
+      }
+  }
+
+  .serviceQuoteBtn{
+      font-size: 22px;
+      height: 67px;
+      width: 200px;
+  }
+}

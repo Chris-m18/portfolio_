@@ -74,15 +74,39 @@
   }
 
 }
-
-@media only screen and (max-width: 600px) {
+@media (max-width: 425px){
+  .navLinks{
+      @include flexRow();
+      position: relative;
+      text-align: center;
+      left: 0px;
+      height: 48.61px;
+      top: 32px;
+  }
   .headingDiv{
-    @include flexRow();
-    z-index:1;
-    text-align:center;
-    background-color: black;
-    height: 75px;
-    width:100%;
-    position: fixed;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 14%;
+  }
+  .headingTitle{
+      position: relative;
+      left: 0px;
+  }
+  .phoneNumberDiv{
+      position: relative;
+      top: 17px;
+  }
+
+  .quoteText{
+      position: relative;
+      left:0px;
+      height: 39px;
+  }
+  .linkText{
+      margin: -7px 41px;
+  }
 }
-}
+
+

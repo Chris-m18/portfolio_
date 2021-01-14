@@ -13,3 +13,15 @@
     justify-content: center;
     text-align:center;
 }
+
+@media (max-width: 425px){
+
+  .headerDiv{
+      background-attachment: unset;
+      width: 231%;
+  }
+  
+  .titleDiv{
+      padding: 60px;
+  }
+}
